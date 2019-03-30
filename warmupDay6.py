@@ -15,10 +15,8 @@ print(n ** m)
 
 n = 2
 m = 3
-while n <= 2 ** m:
-    if n < 2 ** m:
+while n < 8:
+    if n < 8:
         print(n)
-        n *= n
-    if n == 2 ** m:
-        print(n)
-        print("done")
+        n *= 2
+print(n)
